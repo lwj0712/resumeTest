@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Helvetica';
+            margin: 0;
+            padding: 20px;
+            background-color: whitesmoke;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        header {
+            display: flex;
+            text-align: center;
+            margin-bottom: 20px;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .profile-picture {
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+            align-items: center;
+            background-color: #0066cc;
+        }
+
+        .information {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #0066cc;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+        }
+
+        .skills {
+            margin-bottom: 20px;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background-color: #e6f3ff;
+            color: #0066cc;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            display: block;
+            color: #0066cc;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="example-image.png" alt="profile-picture" class="profile-picture">
+            <h1>이원재</h1>
+        </header>
+
+        <div class="information">
+            <h2>information</h2>
+            <p>전화번호: 010-****-****</p>
+            <p>이메일: weniv@weniv.co.kr</p>
+            <p>경력 사항: 신입</p>
+            <p><a href="https://www.books.weniv.co.kr/" target="_blank">기술 블로그</a></p>
+        </div>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vehicula magna ac purus posuere, non
+                tempus nulla eleifend. Fusce ac justo vitae velit malesuada auctor. Maecenas tincidunt metus ut ex
+                auctor, non tincidunt arcu efficitur. Sed at felis et sapien lacinia tincidunt. Proin imperdiet massa
+                nec diam scelerisque, et euismod nunc hendrerit. Nam efficitur mi id dolor tincidunt, sed facilisis
+                felis viverra. Donec vitae ultricies velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vehicula magna ac purus posuere, non
+                tempus nulla eleifend. Fusce ac justo vitae velit malesuada auctor. Maecenas tincidunt metus ut ex
+                auctor, non tincidunt arcu efficitur. Sed at felis et sapien lacinia tincidunt. Proin imperdiet massa
+                nec diam scelerisque, et euismod nunc hendrerit. Nam efficitur mi id dolor tincidunt, sed facilisis
+                felis viverra. Donec vitae ultricies velit.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Django</div>
+        </section>
+
+        <section class="project">
+            <h2>Project</h2>
+            <h3>프로젝트 예시</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla vehicula magna ac purus posuere, non
+                tempus nulla eleifend. Fusce ac justo vitae velit malesuada auctor. Maecenas tincidunt metus ut ex
+                auctor, non tincidunt arcu efficitur. Sed at felis et sapien lacinia tincidunt. Proin imperdiet massa
+                nec diam scelerisque, et euismod nunc hendrerit. Nam efficitur mi id dolor tincidunt, sed facilisis
+                felis viverra. Donec vitae ultricies velit.</p>
+        </section>
+
+        <div class="links">
+            <a href="https://github.com/weniv" target="_blank">깃허브 링크</a>
+            <a href="https://weniv.co.kr" target="_blank">프로젝트 링크</a>
+            <a href="https://github.com/weniv" target="_blank">프로젝트 SNS 링크</a>
+        </div>
+    </div>
+</body>
+
+</html>
